@@ -1,4 +1,5 @@
 <template>
+	<ColorScheme><USelect class="right" v-model="$colorMode.preference" :options="['system', 'light', 'dark', 'sepia']" /></ColorScheme>
 	<nav>
 		<ul>
 			<li><NuxtLink to="/">index</NuxtLink></li>
