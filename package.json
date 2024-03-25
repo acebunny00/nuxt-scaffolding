@@ -26,6 +26,9 @@
 		"vue-router": "^4"
 	},
 	"devDependencies": {
+		"@vueuse/components": "^10",
+		"@vueuse/core": "^10",
+		"@vueuse/nuxt": "^10",
 		"nuxt": "^3"
 	}
 }

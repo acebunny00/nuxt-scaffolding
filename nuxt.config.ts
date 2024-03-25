@@ -3,6 +3,7 @@ export default defineNuxtConfig({
 	devtools: { enabled: true, timeline: { enabled: true } },
 	modules: [
 		//,
+		"@vueuse/nuxt",
 	],
 	telemetry: false,
 	typescript: { shim: false, strict: false },
