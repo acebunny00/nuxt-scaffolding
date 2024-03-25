@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-	definePageMeta({ layout: "auth" });
+	definePageMeta({ colorMode: "light", layout: "auth" });
 </script>
 
 <style scoped>

@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-	definePageMeta({ layout: "auth" });
+	definePageMeta({ colorMode: "light", layout: "auth" });
 	const headers = useRequestHeaders(["cookie"]);
 	const { data: token } = await useFetch("/api/auth/token", { headers });
 </script>
