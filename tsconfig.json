@@ -1,4 +1,9 @@
 {
 	// https://nuxt.com/docs/guide/concepts/typescript
-	"extends": "./.nuxt/tsconfig.json"
+	// "extends": "./.nuxt/tsconfig.json"
+	// Todo: 주석처리: 다음 옵션 두개가 seed 생성을 불가하게 하므로
+	// "compilerOptions": {
+	// 	"types": [],
+	// 	"verbatimModuleSyntax": true
+	// }
 }
