@@ -22,10 +22,13 @@
 		"postinstall": "nuxi prepare"
 	},
 	"dependencies": {
+		"unstorage": "^1",
 		"vue": "^3",
 		"vue-router": "^4"
 	},
 	"devDependencies": {
-		"nuxt": "^3"
+		"nuxt": "^3",
+		"object-to-formdata": "^4",
+		"parse-nested-form-data": "^1"
 	}
 }
