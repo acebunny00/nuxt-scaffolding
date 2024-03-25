@@ -6,9 +6,9 @@ export default defineNuxtConfig({
 		provider: {
 			type: "authjs",
 		},
-		globalAppMiddleware: {
-			isEnabled: true,
-		},
+		// globalAppMiddleware: {
+		// 	isEnabled: true,
+		// },
 	},
 	devtools: { enabled: true, timeline: { enabled: true } },
 	modules: [

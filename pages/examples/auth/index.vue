@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-	definePageMeta({ auth: false, layout: "auth" });
+	definePageMeta({ layout: "auth" });
 	const { data, status, getCsrfToken, getProviders } = useAuth();
 
 	const providers = await getProviders();
