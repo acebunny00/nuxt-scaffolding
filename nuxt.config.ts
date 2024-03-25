@@ -4,6 +4,7 @@ export default defineNuxtConfig({
 	modules: [
 		//,
 		"@vueuse/nuxt",
+		"@nuxt/ui",
 	],
 	telemetry: false,
 	typescript: { shim: false, strict: false },
