@@ -21,11 +21,19 @@
 		"generate": "nuxi generate",
 		"postinstall": "nuxi prepare"
 	},
+	"prisma": {
+		"seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+	},
 	"dependencies": {
+		"@prisma/client": "^5",
 		"vue": "^3",
 		"vue-router": "^4"
 	},
 	"devDependencies": {
-		"nuxt": "^3"
+		"@types/node": "^20",
+		"nuxt": "^3",
+		"prisma": "^5",
+		"ts-node": "^10",
+		"typescript": "5"
 	}
 }
