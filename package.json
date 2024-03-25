@@ -22,6 +22,8 @@
 		"postinstall": "nuxi prepare"
 	},
 	"dependencies": {
+		"@pinia/nuxt": "^0",
+		"pinia": "^2",
 		"vue": "^3",
 		"vue-router": "^4"
 	},
