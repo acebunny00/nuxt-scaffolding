@@ -31,6 +31,7 @@
 		"vue-router": "^4"
 	},
 	"devDependencies": {
+		"@sidebase/nuxt-auth": "^0",
 		"@types/node": "^20",
 		"@vueuse/components": "^10",
 		"@vueuse/core": "^10",
