@@ -28,5 +28,10 @@
 	},
 	"devDependencies": {
 		"nuxt": "^3"
+	},
+	"optionalDependencies": {
+		"date-fns": "^3",
+		"v-calendar": "^3",
+		"yup": "^1"
 	}
 }
