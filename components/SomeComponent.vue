@@ -1,0 +1,1 @@
+<template>SomeComponent</template>
