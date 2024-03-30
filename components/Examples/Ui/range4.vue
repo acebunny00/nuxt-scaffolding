@@ -1,0 +1,3 @@
+<template>
+	<URange disabled />
+</template>

@@ -28,5 +28,17 @@
 	},
 	"devDependencies": {
 		"nuxt": "^3"
+	},
+	"optionalDependencies": {
+		"@vuelidate/core": "latest",
+		"@vueuse/components": "latest",
+		"@vueuse/core": "latest",
+		"@vueuse/nuxt": "latest",
+		"date-fns": "latest",
+		"joi": "latest",
+		"valibot": "latest",
+		"v-calendar": "^3",
+		"yup": "latest",
+		"zod": "latest"
 	}
 }

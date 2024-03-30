@@ -1,0 +1,3 @@
+<template>
+	<UToggle loading />
+</template>

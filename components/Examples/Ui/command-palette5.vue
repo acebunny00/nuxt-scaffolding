@@ -1,0 +1,3 @@
+<template>
+	<UCommandPalette loading />
+</template>
