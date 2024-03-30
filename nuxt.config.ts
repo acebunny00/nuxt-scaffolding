@@ -5,6 +5,17 @@ export default defineNuxtConfig({
 		//,
 		"@nuxt/ui",
 	],
+	router: {
+		// ...
+
+		extendRoutes(routes: any[]) {
+			routes.forEach((route) => {
+				if (route.component && route.component.startsWith("@/components/")) {
+					route.component = `~/pages${route.component.replace("@/components/", "")}.vue`;
+				}
+			});
+		},
+	},
 	telemetry: false,
 	typescript: { shim: false, strict: false },
 });

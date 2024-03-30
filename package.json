@@ -36,8 +36,8 @@
 		"@vueuse/nuxt": "latest",
 		"date-fns": "latest",
 		"joi": "latest",
-		"valibot": "latest",
 		"v-calendar": "^3",
+		"valibot": "latest",
 		"yup": "latest",
 		"zod": "latest"
 	}
