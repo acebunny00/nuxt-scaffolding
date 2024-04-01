@@ -22,10 +22,15 @@
 		"postinstall": "nuxi prepare"
 	},
 	"dependencies": {
+		"chart.js": "^4",
+		"primevue": "^3",
+		"quill": "^1",
 		"vue": "^3",
 		"vue-router": "^4"
 	},
 	"devDependencies": {
-		"nuxt": "^3"
+		"nuxt": "^3",
+		"nuxt-primevue": "^0",
+		"primeicons": "^7"
 	}
 }

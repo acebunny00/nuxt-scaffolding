@@ -14,6 +14,7 @@
 		/examples/
 		<ul>
 			<li><NuxtLink to="/examples/nuxtWelcome">nuxtWelcome</NuxtLink></li>
+			<li><Primevue /></li>
 		</ul>
 	</nav>
 	<div>[ {{ NODE_ENV }} ] Current route: {{ route.path }}</div>
