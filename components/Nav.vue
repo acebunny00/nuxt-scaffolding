@@ -2,6 +2,8 @@
 	<nav>
 		<ul>
 			<li><NuxtLink to="/">index</NuxtLink></li>
+			<li><NuxtLink to="/project">Project</NuxtLink></li>
+			<li><NuxtLink to="/contest">Contest</NuxtLink></li>
 			<li><NuxtLink to="/product">product</NuxtLink></li>
 			<li><NuxtLink to="/product/1">product/1</NuxtLink></li>
 			<li><NuxtLink to="/product/2">product/2</NuxtLink></li>
