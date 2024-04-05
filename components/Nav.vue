@@ -23,6 +23,8 @@
 			<li><NuxtLink to="/examples/nuxtui">NuxtUI</NuxtLink></li>
 			<li><NuxtLink to="/examples/prisma">Prisma</NuxtLink></li>
 			<li><NuxtLink to="/examples/auth">Auth</NuxtLink></li>
+			<li><NuxtLink to="/examples/editorjs">editorjs</NuxtLink></li>
+			<li><NuxtLink to="/examples/editorjs2">editorjs2</NuxtLink></li>
 		</ul>
 	</nav>
 	<div>[ {{ NODE_ENV }} ] Current route: {{ route.path }}</div>

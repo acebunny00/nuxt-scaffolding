@@ -17,6 +17,14 @@ export default defineNuxtConfig({
 		"@sidebase/nuxt-auth",
 		"@vueuse/nuxt",
 	],
+	runtimeConfig: {
+		baseUrl: "http://localhost:3000",
+	},
 	telemetry: false,
 	typescript: { shim: false, strict: false },
+	vite: {
+		optimizeDeps: {
+			include: ["@editorjs/editorjs"],
+		},
+	},
 });
