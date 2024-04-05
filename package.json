@@ -1,17 +1,44 @@
 {
 	"name": "nuxt-app",
 	"private": true,
-	"type": "module",
+	"type": "commonjs",
 	"scripts": {
-		"build": "nuxt build",
-		"dev": "nuxt dev",
-		"generate": "nuxt generate",
-		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare"
+		"dev": "npx nuxi dev -o --inspect --host",
+		"build": "npx nuxi build",
+		"preview": "npx nuxi preview",
+		"pm2:start": "npx pm2 start --time",
+		"pm2:stop:delete": "npx pm2 stop all && npx pm2 delete all",
+		"pm2:reset": "npx pm2 stop all && npx nuxi build && npx pm2 start --time",
+		"pm2:monit": "npx pm2 monit",
+		"prisma": "npx prisma generate",
+		"prisma:pull": "prisma db pull",
+		"prisma:sqlite:dev": "npx prisma migrate dev --name init",
+		"prisma:sqlite:deploy": "npx prisma migrate deploy",
+		"prisma:sqlite:delete": "rd /s /q prisma\\migrations && del /f /q /a prisma\\dev*",
+		"prisma:studio": "npx prisma studio",
+		"cleanup": "nuxi cleanup",
+		"upgrade": "nuxi upgrade",
+		"generate": "nuxi generate",
+		"postinstall": "nuxi prepare"
+	},
+	"prisma": {
+		"seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
 	},
 	"dependencies": {
-		"nuxt": "^3.11.1",
-		"vue": "^3.4.21",
-		"vue-router": "^4.3.0"
+		"@nuxt/ui": "^2",
+		"@prisma/client": "^5",
+		"vue": "^3",
+		"vue-router": "^4"
+	},
+	"devDependencies": {
+		"@sidebase/nuxt-auth": "^0",
+		"@types/node": "^20",
+		"@vueuse/components": "^10",
+		"@vueuse/core": "^10",
+		"@vueuse/nuxt": "^10",
+		"nuxt": "^3",
+		"prisma": "^5",
+		"ts-node": "^10",
+		"typescript": "5"
 	}
 }
