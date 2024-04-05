@@ -27,6 +27,7 @@
 	"dependencies": {
 		"@nuxt/ui": "^2",
 		"@prisma/client": "^5",
+		"unstorage": "^1",
 		"vue": "^3",
 		"vue-router": "^4"
 	},
@@ -37,6 +38,8 @@
 		"@vueuse/core": "^10",
 		"@vueuse/nuxt": "^10",
 		"nuxt": "^3",
+		"object-to-formdata": "^4",
+		"parse-nested-form-data": "^1",
 		"prisma": "^5",
 		"ts-node": "^10",
 		"typescript": "5"

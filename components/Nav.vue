@@ -14,6 +14,10 @@
 	<nav>
 		/examples/
 		<ul>
+			<li><NuxtLink to="/examples/uploadFile1">uploadFile1</NuxtLink></li>
+			<li><NuxtLink to="/examples/uploadFile2">uploadFile2</NuxtLink></li>
+			<li><NuxtLink to="/examples/uploadFile3">uploadFile3</NuxtLink></li>
+			<li><NuxtLink to="/examples/uploadFile4Util">uploadFile4Util</NuxtLink></li>
 			<li><NuxtLink to="/examples/nuxtWelcome">nuxtWelcome</NuxtLink></li>
 			<li><NuxtLink to="/examples/vueuse">VueUse</NuxtLink></li>
 			<li><NuxtLink to="/examples/nuxtui">NuxtUI</NuxtLink></li>
